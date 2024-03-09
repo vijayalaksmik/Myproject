@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap%22" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Zomato</title>
+    
+    
+</head>
+<body>
+        <!-------------------------------------------------------------------------------------------------------------------------------->
+  <header><!-- header starts-->
+    <nav class="navbar">
+        <div class="navbar__brand"><!--logo-->
+            <img src="..\myproject\image\logo.png" alt="zomato logo" class="navbar_logo"><!--pasting image as logo here-->
+
+        </div>
+        <div navbar__nav__item>
+       
+      
+            <button class="button_primary">
+                Order Food
+
+            </button>
+        </div>
+
+    </nav>
+
+    
+  </header>
+
+
+  <main class="container">
+
+    
+
+    <section class="hero_container">
+        <div class="hero_image_container">
+            <img src="..\myproject\image\hero.jpg" alt="hero image" class="hero_image">
+        </div>
+        <div class="hero_description">
+            <h1 class="hero_text">
+                Order food from favourite restaurants near you.
+            </h1>
+            <button class="button_primary">Order Now</button><!-- for each button we are using "button_primary" class name it is global class name for button-->
+
+        </div>
+    </section>
+
+    
+    <section class="video__footage__container">
+      <div class="video__footage">
+        <iframe
+          src="https://player.vimeo.com/video/323795266"
+          frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen
+          class="chef__video"
+        ></iframe>
+      </div>
+      <div class="video__footage__text">
+        <p>
+          Your food will be prepared safely with an experienced chef, without
+          compromising on the quality and hygiene.
+        </p>
+      </div>
+    </section>
+    <!-------------------------------------------------------------------------------------------------------------------------------->
+    <section class="explore_menu_container"><!-- Explore menu starts-->
+        <h1 class="explore_menu_text">Explore Our Menu</h1>
+        <div class="explore_menu_gradient_bg">
+
+        </div>
+        <div class="explore_menu_lists">
+
+
+            <!--burger starts-->
+            <div class="food_card">
+                <div class="food_card_image_container">
+                    <img src="..\myproject\image\pic2.jpg" alt="Burger image" class="food_image">
+                   <!-- <img src="..\myproject\image\pic3.jpg" alt="Pizza image" class="food_image">
+                    <img src="..\myproject\image\pic4.jpg" alt="Sweet image" class="food_image"> -->
+                </div>
+                <div class="food_card_description">
+                    <h3 class="food_title">Burger</h3>
+                    <p> Burger King, Mcdonalds, Burger Place <span style="color: #D83A56;">+3</span></p>
+                </div>
+                </div>
+                <!-- burger ends-->
+
+
+                <!-- pizza starts-->
+                <div class="food_card" id="pizza_card">
+                <div class="food_card_image_container">
+                    <!--<img src="..\myproject\image\pic2.jpg" alt="Burger image" class="food_image">-->
+                    <img src="..\myproject\image\pic3.jpg" alt="Pizza image" class="food_image">
+                    <!--<img src="..\myproject\image\pic4.jpg" alt="Sweet image" class="food_image"> -->
+                </div>
+                <div class="food_card_description">
+                    <h3 class="food_title">Pizza</h3>
+                    <p> Pizza Hut, Domino's Pizza <span style="color: #D83A56;">+3</span></p>
+                </div>
+                </div>
+                <!-- pizza ends-->
+
+
+                <!--icream starts-->
+                <div class="food_card">
+                <div class="food_card_image_container">
+                   <!-- <img src="..\myproject\image\pic2.jpg" alt="Burger image" class="food_image">
+                    <img src="..\myproject\image\pic3.jpg" alt="Pizza image" class="food_image">-->
+                    <img src="..\myproject\image\pic4.jpg" alt="icecream image" class="food_image">
+                </div>
+                <div class="food_card_description">
+                    <h3 class="food_title">IceCream</h3>
+                    <p> Baskin Robins, Ibaco <span style="color: #D83A56;">+3</span></p>
+                </div>
+             </div>
+                <!--icecream ends-->
+                <div>
+                    
+                </div>
+        </div>
+        <br>
+        <div class="view">
+            <h3>View More</h3>
+        </div>
+    </section><!-- Explore menu ends-->
+    <!----------------------------------------------------------------------------------------------------------------------------------------------->
+    <section class="restaurant__list__container">
+        <div class="restaurant__list__text">
+          <h4 class="text-xl">Order From 100s of restaurants</h4>
+        </div>
+        <div class="restaurant__list__images__container">
+          <div class="restaurant__list__row_1">
+            <div>
+              <img
+                src="..\myproject\image\pic5.jpg"
+                alt="restaurant1"
+                class="restaurant1"
+              />
+            </div>
+            <img
+              src="..\myproject\image\pic6.jpg"
+              alt="restaurant2"
+              class="restaurant2"
+            />
+          </div>
+          <div class="restaurant__list__row_2">
+            <img
+              src="..\myproject\image\pic7.jpg"
+              alt="restaurant3"
+              class="restaurant3"
+            />
+            <img
+              src="..\myproject\image\pic8.jpg"
+              alt="restaurant4"
+              class="restaurant4"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="email__subcribe__container">
+        <div>
+          <h1 class="text-xl">Stay Updated</h1>
+          <div class="email__subcribe__input__field">
+            <div>
+              <input
+                type="email"
+                placeholder="email@email.com"
+                class="email__input"
+              >
+            </div>
+            <button class="button_primary">Get Updates</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="quote__container">
+        <div class="quote_image_overlay">
+          
+        </div>
+        <h3 class="quote_image_text">
+          When a man's stomach is full it makes no difference whether he is rich
+          or poor.
+        </h3>
+      </section>
+    </main>
+    <footer>
+      <img src="..\myproject\image\logoo.png" alt="logo">
+      <ul>
+        <li>Pricing</li>
+        <li>Terms and condition</li>
+        <li>Partnership</li>
+        <li>Career</li>
+        <li>Contact</li>
+      </ul>
+    </footer>
+    <script>
+      const hamburgermenu = document.getElementById("hamburgermenu");
+      const mobileNavDropDown = document.querySelector(
+        ".mobile__navbar__items"
+      );
+      window.addEventListener("click", () => {
+        if (mobileNavDropDown.classList.contains("hamburger__menu__close"))
+          return mobileNavDropDown.classList.remove("hamburger__menu__close");
+        return mobileNavDropDown.classList.add("hamburger__menu__close");
+      });
+    </script>
+  </body>
+</html>
+
+    <!------------------------------------------------------------------------------------------------------------------------>
+
+<!--  margin: 80px;
+        display: flex;-->
+        <!-- .order_from{
+        margin-top: 80px;
+        display: flex;
+        gap:5px;
+        padding : 0 5px;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    .order_from_image_container{
+        width: 900px;
+        padding: 2px;
+        
+    }
+    .order_image{
+        width: 100%;
+        padding: 20px;
+        
+    }
+    
+    .order_from_text{
+        font-size: 30px;
+        margin: 20px;
+        color: #1d3557;
+        font-weight: 800px;
+        align-items: center;
+       
+    }-->
+    <!--
+        .order_from_image_container{
+    width: 100%;
+    padding: 10px;
+}
+.order_image{
+    width: 100%;
+   
+}
+    -->
